@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     "rest_framework",
     "drf_yasg",
+    "channels",
 
     "my_app",
 ]
@@ -73,6 +74,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "test_task_for_solution.wsgi.application"
+ASGI_APPLICATION = "test_task_for_solution.routing.application"
 
 
 # Database
